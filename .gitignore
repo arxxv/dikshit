@@ -1,0 +1,12 @@
+node_modules/
+dist/
+data/*.log
+.DS_Store
+*.local
+
+# never commit credentials of any kind
+.npmrc.local
+*.pem
+id_*
+*_deploy
+*_deploy.pub

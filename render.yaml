@@ -1,0 +1,12 @@
+# Render Blueprint. Point Render at this repo and it reads these settings.
+# Free plan spins down after ~15 minutes idle; the first request then takes
+# 30-60s to wake it, and in-memory rooms are lost when it sleeps.
+services:
+  - type: web
+    name: storycards
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/info
+    autoDeployTrigger: commit
