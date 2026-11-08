@@ -12,7 +12,7 @@ import path from "node:path";
 const ROOT = path.resolve(import.meta.dir, "..");
 const CARD_DIR = path.join(ROOT, "public", "cards");
 const MANIFEST = path.join(ROOT, "data", "cards.manifest.json");
-const UA = "storycards-deck/1.0 (local party game; non-commercial)";
+const UA = "dicks-it-deck/1.0 (local party game; non-commercial)";
 
 const TARGET = Number(process.env.TARGET ?? 420);
 const CONCURRENCY = 6;

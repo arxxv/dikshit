@@ -3,7 +3,7 @@
 # 30-60s to wake it, and in-memory rooms are lost when it sleeps.
 services:
   - type: web
-    name: storycards
+    name: dicks-it
     runtime: docker
     plan: free
     region: singapore

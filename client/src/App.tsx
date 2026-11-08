@@ -81,7 +81,7 @@ export default function App() {
     <div className="app">
       {!live && <div className="offline">reconnecting…</div>}
       <nav className="topbar">
-        <span className="brand">Storycards</span>
+        <span className="brand">dicks-it?</span>
         <span className="code">{state.code}</span>
         <button className="link" onClick={leave}>leave</button>
       </nav>

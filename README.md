@@ -1,4 +1,4 @@
-# Storycards
+# dicks-it?
 
 A Dixit-style party game for 3 to 10 players over your wifi. One person creates a room,
 everyone else joins with a 5-character code, and you play in the browser on phones.

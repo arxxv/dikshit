@@ -30,7 +30,7 @@ export default function Home({ prefill, error }: { prefill?: string; error?: str
 
   return (
     <div className="home">
-      <h1>Storycards</h1>
+      <h1>dicks-it?</h1>
       <p className="tag">A clue, a picture, and everyone guessing. 3 to 10 players, one wifi.</p>
 
       {err && <div className="banner warn">{err}</div>}

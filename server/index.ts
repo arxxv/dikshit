@@ -255,7 +255,7 @@ setInterval(() => {
 // ---------- boot ----------
 http.listen(PORT, "0.0.0.0", async () => {
   const urls = lanUrls();
-  console.log(`\n  Storycards  ·  ${CARDS.length} cards loaded`);
+  console.log(`\n  dicks-it?  ·  ${CARDS.length} cards loaded`);
   console.log(`  local      ${`http://localhost:${PORT}`}`);
   for (const u of urls) console.log(`  on wifi    ${u}`);
   if (!existsSync(DIST)) console.log(`\n  (no client build yet: run "bun run build", or "bun run dev:client" for hot reload on :5173)`);

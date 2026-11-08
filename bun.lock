@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "storycards",
+      "name": "dicks-it",
       "dependencies": {
         "express": "^4.19.2",
         "qrcode": "^1.5.4",

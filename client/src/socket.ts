@@ -10,7 +10,7 @@ export function send<T = any>(event: string, payload: any = {}): Promise<{ ok: b
   });
 }
 
-const KEY = "storycards.session";
+const KEY = "dicks-it.session";
 export interface Session { code: string; token: string; name: string; avatar: string }
 
 export function loadSession(): Partial<Session> {
